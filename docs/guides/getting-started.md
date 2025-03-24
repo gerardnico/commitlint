@@ -26,6 +26,10 @@ pnpm add --save-dev @commitlint/{cli,config-conventional}
 deno add --dev npm:@commitlint/cli npm:@commitlint/config-conventional
 ```
 
+```bash [nix]
+nix-shell --packages nodejs nodePackages.\"@commitlint/cli\" nodePackages.\"@commitlint/config-conventional\"
+```
+
 :::
 
 ## Configuration
